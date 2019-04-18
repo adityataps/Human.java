@@ -31,6 +31,42 @@ public abstract class Cell {
     private int numNuclei;
     private int numMitochondria;
     
+    public String getCellType() {
+        
+        return cellType;
+        
+    }
+    
+    public void setCellType(String cellType) {
+        
+        this.cellType = cellType;
+        
+    }
+    
+    public int getNumNuclei() {
+        
+        return numNuclei;
+        
+    }
+    
+    public void setNumNuclei(int numNuclei) {
+        
+        this.numNuclei = numNuclei;
+        
+    }
+    
+    public int getNumMitochondria() {
+        
+        return numMitochondria;
+        
+    }
+    
+    public void setNumMitochondria(int numMitochondria) {
+        
+        this.numMitochondria = numMitochondria;
+        
+    }
+    
     public abstract void doAction();
     
     public abstract Cell mitosis();
