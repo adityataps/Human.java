@@ -1,5 +1,7 @@
 package Human;
 
+import Abstractions.Organ;
+import Abstractions.OrganSystem;
 import Human.OrganSystems.CardiovascularSystem.CardiovascularSystem;
 import Human.OrganSystems.DigestiveSystem.DigestiveSystem;
 import Human.OrganSystems.EndocrineSystem.EndocrineSystem;
@@ -18,17 +20,17 @@ public class Human {
     private int age;
     private char sex;
     
-    private CardiovascularSystem cardiovascularSystem;
-    private DigestiveSystem digestiveSystem;
-    private EndocrineSystem endocrineSystem;
-    private IntegumentarySystem integumentarySystem;
-    private LymphaticSystem lymphaticSystem;
-    private MuscularSystem muscularSystem;
-    private NervousSystem nervousSystem;
-    private RenalSystem renalSystem;
-    private ReproductiveSystem reproductiveSystem;
-    private RespiratorySystem respiratorySystem;
-    private SkeletalSystem skeletalSystem;
+    private OrganSystem cardiovascularSystem;
+    private OrganSystem digestiveSystem;
+    private OrganSystem endocrineSystem;
+    private OrganSystem integumentarySystem;
+    private OrganSystem lymphaticSystem;
+    private OrganSystem muscularSystem;
+    private OrganSystem nervousSystem;
+    private OrganSystem renalSystem;
+    private OrganSystem reproductiveSystem;
+    private OrganSystem respiratorySystem;
+    private OrganSystem skeletalSystem;
     
     
     public Human(String name, int age, char sex) {
@@ -45,7 +47,7 @@ public class Human {
         muscularSystem = new MuscularSystem();
         nervousSystem = new NervousSystem();
         renalSystem = new RenalSystem();
-        reproductiveSystem = new ReproductiveSystem();
+        reproductiveSystem = new ReproductiveSystem(sex);
         respiratorySystem = new RespiratorySystem();
         skeletalSystem = new SkeletalSystem();
         

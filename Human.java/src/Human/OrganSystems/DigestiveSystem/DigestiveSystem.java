@@ -1,4 +1,6 @@
 package Human.OrganSystems.DigestiveSystem;
 
-public class DigestiveSystem {
+import Abstractions.OrganSystem;
+
+public class DigestiveSystem extends OrganSystem {
 }

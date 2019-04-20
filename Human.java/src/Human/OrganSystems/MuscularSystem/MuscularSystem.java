@@ -1,4 +1,6 @@
 package Human.OrganSystems.MuscularSystem;
 
-public class MuscularSystem {
+import Abstractions.OrganSystem;
+
+public class MuscularSystem extends OrganSystem {
 }

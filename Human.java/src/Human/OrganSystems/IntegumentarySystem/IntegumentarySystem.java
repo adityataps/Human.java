@@ -1,4 +1,6 @@
 package Human.OrganSystems.IntegumentarySystem;
 
-public class IntegumentarySystem {
+import Abstractions.OrganSystem;
+
+public class IntegumentarySystem extends OrganSystem {
 }

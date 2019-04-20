@@ -1,4 +1,6 @@
 package Human.OrganSystems.RespiratorySystem;
 
-public class RespiratorySystem {
+import Abstractions.OrganSystem;
+
+public class RespiratorySystem extends OrganSystem {
 }

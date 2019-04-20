@@ -1,4 +1,6 @@
 package Human.OrganSystems.RenalSystem;
 
-public class RenalSystem {
+import Abstractions.OrganSystem;
+
+public class RenalSystem extends OrganSystem {
 }

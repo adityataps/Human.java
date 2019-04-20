@@ -1,4 +1,6 @@
 package Human.OrganSystems.EndocrineSystem;
 
-public class EndocrineSystem {
+import Abstractions.OrganSystem;
+
+public class EndocrineSystem extends OrganSystem {
 }

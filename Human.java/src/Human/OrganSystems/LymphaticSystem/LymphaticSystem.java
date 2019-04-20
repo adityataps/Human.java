@@ -1,4 +1,6 @@
 package Human.OrganSystems.LymphaticSystem;
 
-public class LymphaticSystem {
+import Abstractions.OrganSystem;
+
+public class LymphaticSystem extends OrganSystem {
 }

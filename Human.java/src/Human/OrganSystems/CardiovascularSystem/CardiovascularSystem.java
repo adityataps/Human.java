@@ -1,4 +1,6 @@
 package Human.OrganSystems.CardiovascularSystem;
 
-public class CardiovascularSystem {
+import Abstractions.OrganSystem;
+
+public class CardiovascularSystem extends OrganSystem {
 }
