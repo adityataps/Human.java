@@ -4,11 +4,9 @@ import Abstractions.Organ;
 
 public abstract class Muscle extends Organ {
     
-    public abstract void doAction();
-    
     public abstract class SmoothMuscle extends Muscle {
     
-        
+    
     
     }
     

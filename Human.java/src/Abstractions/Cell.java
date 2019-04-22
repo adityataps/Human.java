@@ -98,6 +98,14 @@ public abstract class Cell {
     }
     
     private class Nucleus extends Organelle {
+        
+        public Nucleus(int numNuclei) {
+            setNumNuclei(numNuclei);
+        }
+        
+        public Nucleus() {
+            this(1);
+        }
     
         void doAction() {
 

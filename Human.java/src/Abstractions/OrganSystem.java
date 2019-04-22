@@ -1,5 +1,7 @@
 package Abstractions;
 
-public class OrganSystem {
+public abstract class OrganSystem {
+
+
 
 }

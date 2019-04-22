@@ -1,4 +1,7 @@
 package Abstractions;
 
-public class Organ {
+public abstract class Organ {
+    
+    public abstract void doAction();
+    
 }

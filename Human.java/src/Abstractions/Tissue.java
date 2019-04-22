@@ -1,4 +1,7 @@
 package Abstractions;
 
-public class Tissue {
+public abstract class Tissue {
+    
+    public abstract void doAction();
+    
 }
