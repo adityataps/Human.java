@@ -2,6 +2,7 @@ package Human.OrganSystems.ReproductiveSystem;
 
 import Abstractions.Organ;
 import Abstractions.OrganSystem;
+import Human.OrganSystems.ReproductiveSystem.Organs.*;
 
 public class ReproductiveSystem extends OrganSystem {
     
@@ -16,8 +17,14 @@ public class ReproductiveSystem extends OrganSystem {
     
         if (sex == 'M') {
         
+            penis = new Penis();
+            testes = new Testes();
         
-        
+        } else if (sex == 'F') {
+            
+            vagina = new Vagina();
+            ovaries = new Ovaries();
+            
         }
     
     }
