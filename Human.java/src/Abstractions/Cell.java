@@ -1,5 +1,9 @@
 package Abstractions;
 
+
+import Miscellaneous.Molecules.*;
+import Miscellaneous.Macromolecules.*;
+
 /**
  * Cell.java
  *
@@ -79,11 +83,21 @@ public abstract class Cell {
     
     private class PlasmaMembrane extends Organelle {
         
+        Lipid.Phospholipid bilayer;
+        
+        public PlasmaMembrane(Lipid.Phospholipid membrane) {
+        
+            this.bilayer = membrane;
+        
+        }
+        
         void doAction() {
         
         
         
         }
+        
+        
         
     }
     
@@ -100,16 +114,20 @@ public abstract class Cell {
     private class Nucleus extends Organelle {
         
         public Nucleus(int numNuclei) {
+            
             setNumNuclei(numNuclei);
+            
         }
         
         public Nucleus() {
+            
             this(1);
+            
         }
     
         void doAction() {
 
-
+        
 
         }
         
